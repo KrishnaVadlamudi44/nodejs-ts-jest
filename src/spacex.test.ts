@@ -46,6 +46,6 @@ describe('Fail on timout', () => {
   it('return status 500 on error', async () => {
     const actual: any = await GetData()
     expect(actual.status).toBe(500)
-    expect(actual.message).toBe('request was aborte')
+    expect(actual.message).toBe('request was aborted')
   })
 })
